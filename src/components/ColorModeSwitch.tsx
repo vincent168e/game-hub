@@ -12,7 +12,7 @@ const ColorModeSwitch = () => {
         onChange={toggleColorMode}
       />
       {/* <Text whiteSpace="nowrap">Dark Mode</Text> */}
-      {colorMode === "dark" ? <BsSunFill size={20} /> : <BsMoonFill />}
+      {colorMode === "dark" ? <BsMoonFill /> : <BsSunFill size={20} />}
     </HStack>
   );
 };
